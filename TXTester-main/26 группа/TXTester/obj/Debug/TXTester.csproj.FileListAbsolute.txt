@@ -1,0 +1,33 @@
+D:\мой компухтер\Загрузки с браузера\TXTester-main\TXTester-main\TXTester\bin\Debug\TXTester.exe.config
+D:\мой компухтер\Загрузки с браузера\TXTester-main\TXTester-main\TXTester\bin\Debug\TXTester.exe
+D:\мой компухтер\Загрузки с браузера\TXTester-main\TXTester-main\TXTester\bin\Debug\TXTester.pdb
+D:\мой компухтер\Загрузки с браузера\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.csprojAssemblyReference.cache
+D:\мой компухтер\Загрузки с браузера\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.f_TXTexter.resources
+D:\мой компухтер\Загрузки с браузера\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.Properties.Resources.resources
+D:\мой компухтер\Загрузки с браузера\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.csproj.GenerateResource.cache
+D:\мой компухтер\Загрузки с браузера\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.csproj.CoreCompileInputs.cache
+D:\мой компухтер\Загрузки с браузера\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.exe
+D:\мой компухтер\Загрузки с браузера\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.pdb
+D:\мой компухтер\Загрузки с браузера\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.csproj.ResolveComReference.cache
+C:\Users\danna\Desktop\TXTester-main\TXTester-main\TXTester\bin\Debug\TXTester.exe.config
+C:\Users\danna\Desktop\TXTester-main\TXTester-main\TXTester\bin\Debug\TXTester.exe
+C:\Users\danna\Desktop\TXTester-main\TXTester-main\TXTester\bin\Debug\TXTester.pdb
+C:\Users\danna\Desktop\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.csprojAssemblyReference.cache
+C:\Users\danna\Desktop\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.csproj.ResolveComReference.cache
+C:\Users\danna\Desktop\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.f_TXTexter.resources
+C:\Users\danna\Desktop\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.Properties.Resources.resources
+C:\Users\danna\Desktop\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.csproj.GenerateResource.cache
+C:\Users\danna\Desktop\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.csproj.CoreCompileInputs.cache
+C:\Users\danna\Desktop\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.exe
+C:\Users\danna\Desktop\TXTester-main\TXTester-main\TXTester\obj\Debug\TXTester.pdb
+C:\Users\danna\Desktop\TXTester-main\26 группа\TXTester\bin\Debug\TXTester.exe.config
+C:\Users\danna\Desktop\TXTester-main\26 группа\TXTester\bin\Debug\TXTester.exe
+C:\Users\danna\Desktop\TXTester-main\26 группа\TXTester\bin\Debug\TXTester.pdb
+C:\Users\danna\Desktop\TXTester-main\26 группа\TXTester\obj\Debug\TXTester.csprojAssemblyReference.cache
+C:\Users\danna\Desktop\TXTester-main\26 группа\TXTester\obj\Debug\TXTester.csproj.ResolveComReference.cache
+C:\Users\danna\Desktop\TXTester-main\26 группа\TXTester\obj\Debug\TXTester.f_TXTexter.resources
+C:\Users\danna\Desktop\TXTester-main\26 группа\TXTester\obj\Debug\TXTester.Properties.Resources.resources
+C:\Users\danna\Desktop\TXTester-main\26 группа\TXTester\obj\Debug\TXTester.csproj.GenerateResource.cache
+C:\Users\danna\Desktop\TXTester-main\26 группа\TXTester\obj\Debug\TXTester.csproj.CoreCompileInputs.cache
+C:\Users\danna\Desktop\TXTester-main\26 группа\TXTester\obj\Debug\TXTester.exe
+C:\Users\danna\Desktop\TXTester-main\26 группа\TXTester\obj\Debug\TXTester.pdb
