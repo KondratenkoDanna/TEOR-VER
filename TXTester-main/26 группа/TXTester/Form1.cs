@@ -12,8 +12,6 @@ using Word = Microsoft.Office.Interop.Word;
 using Microsoft.Office.Core;
 using CheckBox = System.Windows.Forms.CheckBox;
 
-enum answers { A = 1, B, C, D }
-
 namespace TXTester
 {
     public partial class f_TXTexter : Form
@@ -28,6 +26,10 @@ namespace TXTester
             InitializeComponent();
 
             readTxt();
+
+            Random rnd = new Random();
+            //questions = questions.OrderBy(_ => rnd.Next());
+            Array.Sort(questions, x => (rnd.Next() % 3) - 1);
         }
 
         private void b_Start_Click(object sender, EventArgs e)
@@ -41,6 +43,7 @@ namespace TXTester
             b_Start.Visible = false;
             b_Next.Enabled = true;
             b_Next.Visible = true;
+
             if (currentQuestion == questionNumber - 1) b_Next.Text = "Finish";
             flp_QuestionPanel.Visible = true;
 
@@ -223,10 +226,14 @@ namespace TXTester
                     string forAnswer = "";
                     for (int k=1; k<=4; ++k)
                     {
-                        if (questions[q].answerMark[k - 1]) 
-                            if (first) forAnswer += 
-                        oDoc.Bookmarks["Answer" + i.ToString() + "_" + j.ToString() + "_" + k.ToString()].Range.Text = questions[q].answerText[k-1];
+                        if (questions[q].answerMark[k - 1])
+                        {
+                            if (first) { forAnswer += "" + (char)(k - 1 + 'A'); first = false; }
+                            else forAnswer += ", " + (char)(k - 1 + 'A');
+                        }
+                        oDoc.Bookmarks["Answer" + i.ToString() + "_" + j.ToString() + "_" + k.ToString()].Range.Text = questions[q].answerText[k - 1];
                     }
+                    oDoc.Bookmarks["forAnswer" + i.ToString() + j.ToString()].Range.Text = forAnswer;
                     j++;
                 }
 
@@ -254,11 +261,18 @@ namespace TXTester
                         //oDoc.Bookmarks["Question" + i.ToString() + "_" + (j + 4).ToString()].Range = Clipboard.GetImage();
                     }
                     //oDoc.Bookmarks["Question" + i.ToString() + "_" + (j + 4).ToString()].Range.Expand(rng);
-
+                    bool first = true;
+                    string forAnswer = "";
                     for (int k = 1; k <= 4; ++k)
                     {
+                        if (questions[q].answerMark[k - 1])
+                        {
+                            if (first) { forAnswer += "" + (char)(k - 1 + 'A'); first = false; }
+                            else forAnswer += ", " + (char)(k - 1 + 'A');
+                        }
                         oDoc.Bookmarks["Answer" + i.ToString() + "_" + (j + 4).ToString() + "_" + k.ToString()].Range.Text = questions[q].answerText[k - 1];
                     }
+                    oDoc.Bookmarks["forAnswer" + i.ToString() + (j + 4).ToString()].Range.Text = forAnswer;
                     ++j;
                 }
             }
@@ -276,12 +290,6 @@ namespace TXTester
             oDoc.SaveAs(FileName: Environment.CurrentDirectory + "\\For_print.docx");
             oDoc.Close();
             app.Quit();
-
-            /*var doc = app.Documents.Add();
-            var r = doc.Range();
-            r.Text = "Hello world";гшр
-            doc.Save();
-            */
         }
     }
 
